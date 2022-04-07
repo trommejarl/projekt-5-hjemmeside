@@ -3,17 +3,21 @@
 /*Grid forside*/
 
 .gf1{ grid-area: a; }
-.gf1{ grid-area: b; }
-.gf1{ grid-area: c; }
-.gf1{ grid-area: d; }
-.gf1{ grid-area: e; }
-.gf1{ grid-area: f; }
-.gf1{ grid-area: g; }
-.gf1{ grid-area: h; }
-.gf1{ grid-area: i; }
+.gf2{ grid-area: b; }
+.gf3{ grid-area: c; }
+.gf4{ grid-area: d; }
+.gf5{ grid-area: e; }
+.gf6{ grid-area: f; }
+.gf7{ grid-area: g; }
+.gf8{ grid-area: h; }
 
 .grid-forside{
   display: grid;
   grid-template-areas:
-    'a';
+    'a a a'
+    'b b b'
+    'c d e'
+    'f f f'
+    'g g g'
+    'h h h';
 }
