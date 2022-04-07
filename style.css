@@ -10,7 +10,7 @@
   --clr-font-secondary: #E9F4F4;
   --clr-header: #698B6F;
 
-  --fs-h1:   34px;
+  --fs-h1:   3rem;
   --fs-h2:   20px;
   --fs-nav:  20px;
 }
@@ -44,7 +44,7 @@ a{
 }
 
 .navbar{
-  min-height: 70px;
+  min-height: 140px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -122,6 +122,7 @@ a{
 /* menubar*/
 
 /*Grid systemer*/
+
 /*Grid forside*/
 
 .gf1{ grid-area: a; }
@@ -158,4 +159,76 @@ a{
 #gf1-pic{
   width: 100%;
   max-width: 1920px;
+}
+
+/*Grid footer*/
+
+.gfo1{ grid-area: a; }
+.gfo2{ grid-area: b; }
+.gfo3{ grid-area: c; }
+
+.grid-footer{
+  display: grid;
+  grid-template-areas:
+    'a b c';
+    width: 100%;
+    max-width: 1920px;
+    background-color: #698B6F;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    line-height: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #E9F4F4;
+}
+
+.gfo1-1{ grid-area: a; }
+.gfo1-2{ grid-area: b; }
+
+.gfo3-1{ grid-area: a; }
+.gfo3-2{ grid-area: b; }
+
+.gfo1{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2rem;
+  display: grid;
+  grid-template-areas:
+  'a'
+  'b';
+}
+
+.gfo2{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2rem;
+}
+
+.gfo3{
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-areas:
+  'a'
+  'b';
+}
+
+.gfo3 .gfo3-2 i{
+  font-size: 50px;
+}
+
+#logo-footer{
+  width: auto;
+  height: auto;
+  max-height: 4rem;
+}
+
+#footer-lille-skrift{
+  font-size: 12px;
+}
+
+#footer-alm-skrift{
+  font-size: 20px;
 }
