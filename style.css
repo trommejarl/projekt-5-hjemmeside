@@ -16,8 +16,4 @@
   display: grid;
   grid-template-areas:
     'a';
-  grid-template-columns: 1fr 2fr 1fr 1fr;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
 }
