@@ -28,6 +28,9 @@ body {
 
 header{
   background-color: var(--clr-header);
+  opacity: 90%;
+  position: fixed;
+  width: 100%;
 }
 
 li{
