@@ -6,9 +6,9 @@
 
   --clr--background:  #white;
   --clr--background-secondary: #F4F2E9;
-  --clr-font:   #2B3F43; 
-  --clr-font-secondary: #E9F4F4; 
-  --clr-header: #698B6F;   
+  --clr-font:   #2B3F43;
+  --clr-font-secondary: #E9F4F4;
+  --clr-header: #698B6F;
 
   --fs-h1:   34px;
   --fs-h2:   20px;
@@ -140,4 +140,18 @@ a{
     'f f f'
     'g g g'
     'h h h';
+    grid-gap: 5rem;
+}
+
+.gf2{
+  text-align: center;
+}
+
+#gf2-h1{
+  font-size: 3rem;
+}
+
+#gf1-pic{
+  width: 100%;
+  max-width: 1920px;
 }
