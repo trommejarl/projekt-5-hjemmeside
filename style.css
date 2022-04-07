@@ -1,0 +1,23 @@
+/*Grid systemer*/
+
+/*Grid forside*/
+
+.gf1{ grid-area: a; }
+.gf1{ grid-area: b; }
+.gf1{ grid-area: c; }
+.gf1{ grid-area: d; }
+.gf1{ grid-area: e; }
+.gf1{ grid-area: f; }
+.gf1{ grid-area: g; }
+.gf1{ grid-area: h; }
+.gf1{ grid-area: i; }
+
+.grid-forside{
+  display: grid;
+  grid-template-areas:
+    'a';
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
