@@ -1,3 +1,9 @@
+*{
+  font-family: teen;
+  border: 0px;
+  margin: 0px;
+}
+
 /*Grid systemer*/
 
 /*Grid forside*/
@@ -20,4 +26,18 @@
     'f f f'
     'g g g'
     'h h h';
+    grid-gap: 5rem;
+}
+
+.gf2{
+  text-align: center;
+}
+
+#gf2-h1{
+  font-size: 3rem;
+}
+
+#gf1-pic{
+  width: 100%;
+  max-width: 1920px;
 }
