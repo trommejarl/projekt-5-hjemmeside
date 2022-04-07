@@ -149,6 +149,7 @@ a{
 #gf2-h1{
   font-size: var(--fs-h1);
   font-family: var(--ff-primary);
+  color: var(--clr-font);
 }
 
 #gf1-pic{
