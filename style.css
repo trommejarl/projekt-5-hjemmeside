@@ -119,7 +119,6 @@ a{
 /* menubar*/
 
 /*Grid systemer*/
-
 /*Grid forside*/
 
 .gf1{ grid-area: a; }
@@ -148,7 +147,8 @@ a{
 }
 
 #gf2-h1{
-  font-size: 3rem;
+  font-size: var(--fs-h1);
+  font-family: var(--ff-primary);
 }
 
 #gf1-pic{
