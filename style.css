@@ -84,7 +84,7 @@ a{
 #logo-nav{
   width: auto;
   max-width: 200px;
-  margin-right: 40px
+  margin-right: 40px;
 }
 
 @media (max-width:768px){
