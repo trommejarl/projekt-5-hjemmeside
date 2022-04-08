@@ -87,6 +87,10 @@ a{
   margin-right: 40px;
 }
 
+.active{
+  color: #2B3F43;
+}
+
 @media (max-width:768px){
 .hamburger{
   display: block;
