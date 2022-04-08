@@ -167,7 +167,18 @@ a{
   display: grid;
   grid-template-areas:
   'c d e';
-  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  max-width: 1920px;
+}
+
+.gf3-1{
+  width: 100%;
+}
+.gf4-1{
+  width: 100%;
+}
+.gf5-1{
+  width: 100%;
 }
 
 
