@@ -261,12 +261,84 @@ a{
   margin-top: 3rem;
 }
 
-.gfo3 i{
+.gfo3 a i{
   padding-left: 15px;
   padding-right: 15px;
 }
 
-#fo-icon{
+.border{
+  padding: 0px;
+  margin: 0px;
+}
+
+.border-settings{
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+
+}
+
+.box-indhold-1{ grid-area: a; }
+.box-indhold-2{ grid-area: b; }
+
+.box{
+  background-color: #F4F2E9;
+  height: 600px;
+  display: grid;
+  grid-template-areas:
+    'a b';
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0px 0px 5px #2B3F43;
+}
+
+.box-indhold-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-indhold-2{
+  display: flex;
+  align-items: center;
+  margin-right: 4rem;
+}
+
+.box-indhold-2 p{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+
+.box-indhold-1-1{ grid-area: a; }
+.box-indhold-2-1{ grid-area: b; }
+
+.box-1{
+  height: 600px;
+  display: grid;
+  grid-template-areas:
+    'b a';
+  grid-template-columns: 1fr 1fr;
+}
+
+.box-indhold-1-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-indhold-2-1{
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
+}
+
+.box-indhold-2-1 p{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+
+#fo-icon a{
   font-size: 50px;
 }
 
@@ -286,4 +358,16 @@ a{
 
 #fo-h3{
   font-size: 35px;
+}
+
+#fb1{
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 3px 3px 5px #2B3F43;
+}
+
+#fb1-1{
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 3px 3px 5px #2B3F43;
 }
