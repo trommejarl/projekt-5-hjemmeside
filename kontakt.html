@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="da" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,8 +16,6 @@
         <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
-
-
 
   </head>
   <body>
@@ -46,15 +44,33 @@
 </header>
 <script src="js/menu.js"></script>
 <!-- menubar -->
-  <nav></nav>
-  <main>
+
     <div class="grid-forside">
-
       <div class="gf1"><img src="pictures/4.jpg" alt="forside" id="gf1-pic"></div>
-
     </div>
+  
 
-  </main>
+  <form id="form" action="#" method="post">
+    Navn:<br/>
+      <input type="text"/><br/>
+      E-mail:<br/>
+      <input type="email"/><br/>
+      Emne:<br/>
+      <input type="text"/><br/> 
+      <textarea style="width:200px"></textarea>
+      <br/>
+      <button onclick="myFunction()">Send</button>
+       <script>
+        function myFunction() {
+         alert("Dette er en prototype");}
+       </script>
+      <input type="reset" value="SLET" />
+      </form>
+  
+
+
+
+
   <footer>
 
 <div class="grid-footer">
