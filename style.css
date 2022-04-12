@@ -57,6 +57,7 @@ a{
   justify-content: space-between;
   align-items: center;
   gap: 60px;
+  font-size: 1.5rem;
 }
 
 .nav-link{
@@ -89,6 +90,12 @@ a{
 
 .active{
   color: #2B3F43;
+}
+
+@media (max-width:1200px){
+  .nav-menu{
+    font-size: 1rem;
+  }
 }
 
 @media (max-width:768px){
@@ -192,17 +199,71 @@ font-family: sans-serif;
   max-width: 1920px;
 }
 
+.nyheder-forside{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.gf3-1{grid-area: a;}
+.gf3-2{grid-area: b;}
+.gf4-1{grid-area: a;}
+.gf4-2{grid-area: b;}
+.gf5-1{grid-area: a;}
+.gf5-2{grid-area: b;}
+
+
+.gf3{
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-areas:
+  'a'
+  'b';
+  width: 20rem;
+  line-height:25px;
+}
+
+.gf4{
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-areas:
+  'a'
+  'b';
+  width: 20rem;
+  line-height:25px;
+
+}
+
+.gf5{
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-areas:
+  'a'
+  'b';
+  width: 20rem;
+  line-height:25px;
+}
+
+
 .gf3-1{
   width: 100%;
+  padding: 0px;
+  height: 20rem;
 }
 .gf4-1{
   width: 100%;
+  padding: 0px;
+  height: 20rem;
 }
 .gf5-1{
   width: 100%;
+  padding: 0px;
+  height: 20rem;
 }
-
-
 
 .gf2{
   text-align: center;
@@ -354,13 +415,33 @@ font-family: sans-serif;
 
 .box-indhold-1-1{ grid-area: a; }
 .box-indhold-2-1{ grid-area: b; }
+.knap-f-2 { grid-area: c; }
 
 .box-1{
   height: 600px;
   display: grid;
   grid-template-areas:
-    'b a';
+    'b a'
+    'b c';
   grid-template-columns: 1fr 1fr;
+}
+
+.knap-f-2{
+  display: flex;
+  justify-content: center;
+}
+
+.knap-f-2 button{
+  background-color: #A2D5AB;
+  border: none;
+  color: #2B3F43;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .box-indhold-1-1{
@@ -377,7 +458,7 @@ font-family: sans-serif;
 
 
 .box-indhold-2-1 p{
-  font-size: 30px;
+  font-size: 20px;
   line-height: 40px;
 }
 
@@ -387,8 +468,8 @@ font-family: sans-serif;
   margin-left: 4rem;
 }
 
-.box-indholdf-1-1 p{
-  font-size: 30px;
+.box-indhold-2 p{
+  font-size: 20px;
   line-height: 40px;
 }
 
