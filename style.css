@@ -524,6 +524,7 @@ grid-area: b;
   grid-area: c;
   display: flex;
   justify-content: center;
+  margin: 5%;
 }
 
 .boxforestillinger{
@@ -540,11 +541,14 @@ grid-area: b;
 .buttonforestillinger button{
   background-color: #A2D5AB;
   border: none;
-  border-radius: 8px;
-  color: white;
+  color: #2B3F43;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 15rem;
+  font-weight: bold;
 }
