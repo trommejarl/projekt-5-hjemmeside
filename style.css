@@ -571,3 +571,94 @@ font-family: sans-serif;
 .demo:hover {
   opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid-forestillinger{
+  display: grid;
+  grid-template-areas:
+    'a'
+    'b'
+    'n'
+    'f'
+    'g'
+    'h';
+}
+
+.box-indholdf-1-1{
+
+  margin-left: 4rem;
+  grid-area: a;
+}
+
+.box-indholdf-2-1{
+display: flex;
+align-items: center;
+margin-left: 4rem;
+grid-area: b;
+}
+
+.gff2{
+  text-align: center;
+  margin-top: 10%;
+}
+
+#gff2-h1{
+  font-size: var(--fs-h1);
+  font-family: var(--ff-primary);
+  color: var(--clr-font);
+}
+
+
+.buttonforestillinger{
+  grid-area: c;
+  display: flex;
+  justify-content: center;
+}
+
+.boxforestillinger{
+  background-color: #F4F2E9;
+  height: auto;
+  display: grid;
+  grid-template-areas:
+    'a b'
+    'd c';
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.buttonforestillinger button{
+  background-color: #A2D5AB;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
