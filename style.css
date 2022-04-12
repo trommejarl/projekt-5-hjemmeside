@@ -552,3 +552,28 @@ grid-area: b;
   width: 15rem;
   font-weight: bold;
 }
+
+.gridf-1{grid-area: a;}
+.gridf-2{grid-area: b;}
+.gridf-3{grid-area: c;}
+.gridf-4{grid-area: d;}
+.pil1{grid-area: e;}
+.pil2{grid-area: f;}
+
+.gridf-box{
+grid-template-areas:
+'e a a f'
+'e b c f'
+'e d d f';
+}
+
+.gridf-3 img{
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 3px 3px 5px #2B3F43;
+}
+
+
+
+
+
