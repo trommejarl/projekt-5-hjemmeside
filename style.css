@@ -416,13 +416,14 @@ font-family: sans-serif;
 .box-indhold-1-1{ grid-area: a; }
 .box-indhold-2-1{ grid-area: b; }
 .knap-f-2 { grid-area: c; }
+.blank { grid-area: d; }
 
 .box-1{
   height: 600px;
   display: grid;
   grid-template-areas:
     'b a'
-    'b c';
+    'd c';
   grid-template-columns: 1fr 1fr;
 }
 
