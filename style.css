@@ -322,6 +322,18 @@ font-family: sans-serif;
   grid-template-columns: 1fr 1fr;
 }
 
+.button-forestillinger {
+  background-color: #A2D5AB;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 .box-indhold-1{
   display: flex;
   justify-content: center;
