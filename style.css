@@ -561,14 +561,66 @@ grid-area: b;
 .pil2{grid-area: f;}
 
 .gridf-box{
+display: grid;
 grid-template-areas:
 'e a a f'
 'e b c f'
-'e d d f';
+'d d d d';
+height: auto;
+}
+
+.gridf-box p{
+  font-size: 25px;
+  line-height: 40px;
+  margin: auto;
+}
+.gridf-3{
+  display: flex;
+  justify-content: center;
 }
 
 .gridf-3 img{
   width: 100%;
   max-width: 600px;
   box-shadow: 3px 3px 5px #2B3F43;
+}
+
+.gridf-2{
+  padding-right: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.gridf-4{
+  display: flex;
+  justify-content: center;
+}
+
+.gridf-4 button{
+  background-color: #A2D5AB;
+  border: none;
+  margin: 2.5%;
+  color: #2B3F43;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 15rem;
+  font-weight: bold;
+}
+
+.pil1{
+  margin: auto;
+  margin-left: 2.5rem;
+  font-size: 4rem;
+}
+
+.pil2{
+  margin: auto;
+  margin-left: 2.5rem;
+  font-size: 4rem;
 }
