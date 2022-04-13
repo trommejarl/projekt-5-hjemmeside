@@ -521,88 +521,20 @@ font-family: sans-serif;
   box-shadow: 3px 3px 5px #2B3F43;
 }
 
-.grid-forestillinger{
-  display: grid;
-  grid-template-areas:
-    'a'
-    'b'
-    'n'
-    'f'
-    'g'
-    'h';
-}
-
-.box-indholdf-1-1{
-
-  margin-left: 4rem;
-  grid-area: a;
-}
-
-.box-indholdf-2-1{
-display: flex;
-align-items: center;
-margin-left: 4rem;
-grid-area: b;
-}
-
-.gridff2{
-  text-align: center;
-  margin-top: 10%;
-}
-
-#gridff2-h1{
-  font-size: var(--fs-h1);
-  font-family: var(--ff-primary);
-  color: var(--clr-font);
-}
-
-
-.buttonforestillinger{
-  grid-area: c;
-  display: flex;
-  justify-content: center;
-  margin: 5%;
-}
-
-.boxforestillinger{
-  background-color: #F4F2E9;
-  height: auto;
-  display: grid;
-  grid-template-areas:
-    'a b'
-    'd c';
-  grid-template-columns: 1fr 1fr;
-
-}
-
-.buttonforestillinger button{
-  background-color: #A2D5AB;
-  border: none;
-  color: #2B3F43;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  cursor: pointer;
-  border-radius: 5px;
-  width: 15rem;
-  font-weight: bold;
-}
-
-
 .gridf1{grid-area: a;}
 .gridf2{grid-area: b;}
 .gridf3{grid-area: c;}
 .gridf4{grid-area: d;}
 .gridf5{grid-area: e;}
+.gridf6{grid-area: f;}
+.gridf7{grid-area: g;}
 
 .gridfbox{
 display: grid;
 grid-template-areas:
-'a a'
-'b c'
-'e d';
+'f a a g'
+'f b c g'
+'f e d g';
 height: auto;
 background-color: #F4F2E9;
 }
@@ -624,13 +556,13 @@ background-color: #F4F2E9;
   padding-left: 2rem;
   display: flex;
   justify-content: center;
-  margin-left: 6rem;
+  margin-left: auto;
 }
 
 .gridf3{
   display: flex;
   justify-content: center;
-  margin-right: 6rem;
+  margin-right: auto;
 }
 
 .gridf3 img{
@@ -658,6 +590,16 @@ background-color: #F4F2E9;
   border-radius: 5px;
   width: 15rem;
   font-weight: bold;
+}
+
+.gridf6{
+  margin: auto;
+  margin-left: 6.5rem;
+}
+
+.gridf7{
+  margin: auto;
+  margin-left: 6.5rem;
 }
 
 
