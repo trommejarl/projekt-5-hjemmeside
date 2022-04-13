@@ -176,6 +176,11 @@ font-family: sans-serif;
     grid-gap: 5rem;
 }
 
+.gf1{
+  height: auto;
+  max-height: 800px;
+}
+
 
 .gf3{ grid-area: c; }
 .gf4{ grid-area: d; }
@@ -274,7 +279,39 @@ font-family: sans-serif;
 #gf1-pic{
   width: 100%;
   max-width: 1920px;
+  object-fit: cover;
+  height: auto;
+  max-height: 800px;
 }
+
+#gf2-pic{
+  width: 100%;
+  max-width: 1920px;
+  object-fit: cover;
+  height: auto;
+}
+#gf3-pic{
+  width: 100%;
+  max-width: 1920px;
+  object-fit: cover;
+  height: auto;
+  max-height: 800px;
+}
+#gf4-pic{
+  width: 100%;
+  max-width: 1920px;
+  object-fit: cover;
+  height: auto;
+  max-height: 800px;
+}
+#gf5-pic{
+  width: 100%;
+  max-width: 1920px;
+  object-fit: cover;
+  height: auto;
+  max-height: 800px;
+}
+
 
 /*Grid footer*/
 
