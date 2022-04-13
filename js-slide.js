@@ -6,7 +6,7 @@ var imgArray = [
       'pictures/7.jpg'
   ];
   var curIndex = 0;
-  var imgDuration = 5000;
+  var imgDuration = 7000;
 
   function slideShow() {
       document.getElementById('gf1-pic').src = imgArray[curIndex];
@@ -15,3 +15,4 @@ var imgArray = [
       setTimeout("slideShow()", imgDuration);
   }
   slideShow();
+  
