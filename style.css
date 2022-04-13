@@ -520,7 +520,6 @@ font-family: sans-serif;
   max-width: 600px;
   box-shadow: 3px 3px 5px #2B3F43;
 }
-
 .gridf1{grid-area: a;}
 .gridf2{grid-area: b;}
 .gridf3{grid-area: c;}
@@ -600,6 +599,18 @@ background-color: #F4F2E9;
 .gridf7{
   margin: auto;
   margin-left: 6.5rem;
+}
+
+.borderf{
+  padding: 0px;
+  margin: 0px;
+}
+
+.borderf-settings{
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+
 }
 
 
