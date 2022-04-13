@@ -545,12 +545,12 @@ margin-left: 4rem;
 grid-area: b;
 }
 
-.gff2{
+.gridff2{
   text-align: center;
   margin-top: 10%;
 }
 
-#gff2-h1{
+#gridff2-h1{
   font-size: var(--fs-h1);
   font-family: var(--ff-primary);
   color: var(--clr-font);
@@ -590,6 +590,77 @@ grid-area: b;
   font-weight: bold;
 }
 
+
+.gridf1{grid-area: a;}
+.gridf2{grid-area: b;}
+.gridf3{grid-area: c;}
+.gridf4{grid-area: d;}
+.gridf5{grid-area: e;}
+
+.gridfbox{
+display: grid;
+grid-template-areas:
+'a a'
+'b c'
+'e d';
+height: auto;
+background-color: #F4F2E9;
+}
+
+.gridfbox p{
+  font-size: 25px;
+  line-height: 40px;
+  margin: auto;
+}
+
+.gridf1{
+  padding-left: 2rem;
+  display: flex;
+  justify-content: left;
+}
+
+.gridf2{
+  padding-right: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 6rem;
+}
+
+.gridf3{
+  display: flex;
+  justify-content: center;
+  margin-right: 6rem;
+}
+
+.gridf3 img{
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 3px 3px 5px #2B3F43;
+}
+
+.gridf4{
+  display: flex;
+  justify-content: center;
+}
+
+.gridf4 button{
+  background-color: #A2D5AB;
+  border: none;
+  margin: 2.5%;
+  color: #2B3F43;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 15rem;
+  font-weight: bold;
+}
+
+
 .gridf-1{grid-area: a;}
 .gridf-2{grid-area: b;}
 .gridf-3{grid-area: c;}
@@ -598,14 +669,76 @@ grid-area: b;
 .pil2{grid-area: f;}
 
 .gridf-box{
+display: grid;
 grid-template-areas:
 'e a a f'
 'e b c f'
-'e d d f';
+'d d d d';
+height: auto;
+background-color: #F4F2E9;
+}
+
+.gridf-box p{
+  font-size: 25px;
+  line-height: 40px;
+  margin: auto;
+}
+
+.gridf-1{
+  padding-left: 2rem;
+  display: flex;
+  justify-content: left;
+}
+
+.gridf-2{
+  padding-right: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.gridf-3{
+  display: flex;
+  justify-content: center;
 }
 
 .gridf-3 img{
   width: 100%;
   max-width: 600px;
   box-shadow: 3px 3px 5px #2B3F43;
+}
+
+.gridf-4{
+  display: flex;
+  justify-content: center;
+}
+
+.gridf-4 button{
+  background-color: #A2D5AB;
+  border: none;
+  margin: 2.5%;
+  color: #2B3F43;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 15rem;
+  font-weight: bold;
+}
+
+.pil1{
+  margin: auto;
+  margin-left: 2.5rem;
+  font-size: 4rem;
+  color: #2B3F43;
+}
+
+.pil2{
+  margin: auto;
+  margin-left: 2.5rem;
+  font-size: 4rem;
+  color:#2B3F43;
 }
