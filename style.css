@@ -157,6 +157,14 @@ font-family: sans-serif;
 
 /*Grid forside*/
 
+body{
+  background-image: url(pictures/6.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+}
+
 .gf1{ grid-area: a; }
 .gf2{ grid-area: b; }
 .nyheder-forside{ grid-area: n}
@@ -173,7 +181,6 @@ font-family: sans-serif;
     'f'
     'g'
     'h';
-    grid-gap: 5rem;
 }
 
 .gf1{
@@ -181,6 +188,9 @@ font-family: sans-serif;
   max-height: 800px;
 }
 
+.gf7{
+  background-color: white;
+}
 
 .gf3{ grid-area: c; }
 .gf4{ grid-area: d; }
@@ -192,6 +202,9 @@ font-family: sans-serif;
   'c d e';
   width: 100%;
   max-width: 1920px;
+  background-color: white;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
 }
 
 .nyheder-forside{
@@ -262,6 +275,8 @@ font-family: sans-serif;
 
 .gf2{
   text-align: center;
+  background-color: white;
+  padding-top: 5rem;
 }
 
 .nyheder-forside img{
@@ -694,4 +709,42 @@ background-color: #F4F2E9;
   margin-left: 2.5rem;
   font-size: 4rem;
   color:#2B3F43;
+}
+
+.gf8 img{
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.title{ grid-area: a; }
+.p1{ grid-area: b; }
+.p2{ grid-area: c; }
+.p3{ grid-area: d; }
+.p4{ grid-area: e; }
+.p5{ grid-area: f; }
+.p6{ grid-area: g; }
+
+.gf8{
+  display: grid;
+  grid-template-areas:
+  'a a a'
+  'b c d'
+  'e f g';
+  grid-gap: 5rem;
+  background-color: #F4F2E9;
+  padding-top: 5rem;
+  color: #2B3F43;
+  margin-top: 25rem;
+}
+
+.title{
+  text-align: center;
+}
+
+.title h2{
+  font-size: 60px;
+}
+.title p{
+  font-size: 25px;
 }
