@@ -9,7 +9,7 @@ let imgArrayA = [
   let imgDurationA = 7000;
 
   function slideShowA() {
-      document.getElementById('pf1').src = imgArrayA[curIndexA];
+      document.getElementById('pf7').src = imgArrayA[curIndexA];
       curIndexA++;
       if (curIndexA == imgArrayA.length) { curIndexA = 0; }
       setTimeout("slideShowA()", imgDurationA);
