@@ -188,10 +188,16 @@ align-items: center;
 .tekstarea2 {
   width: 500px;
 }
-
-
-
 /* Kontakform*/
+/* kontakt side */
+.kontaktbillede {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: auto;
+}
+/* kontakt side */
 
 
 /*Grid systemer*/
