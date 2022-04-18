@@ -569,6 +569,19 @@ footer{
   max-width: 600px;
   box-shadow: 3px 3px 5px #2B3F43;
 }
+
+.foverskrift{
+  text-align: center;
+  background-color: white;
+  padding-top: 10rem;
+}
+
+#foverskrift-h1{
+  font-size: var(--fs-h1);
+  font-family: var(--ff-primary);
+  color: var(--clr-font);
+}
+
 .gridf1{grid-area: a;}
 .gridf2{grid-area: b;}
 .gridf3{grid-area: c;}
@@ -622,6 +635,7 @@ background-color: #F4F2E9;
 .gridf4{
   display: flex;
   justify-content: center;
+  margin: 2.5%;
 }
 
 
@@ -648,20 +662,20 @@ background-color: #F4F2E9;
 
 }
 
-
 .gridf-1{grid-area: a;}
 .gridf-2{grid-area: b;}
 .gridf-3{grid-area: c;}
 .gridf-4{grid-area: d;}
-.pil1{grid-area: e;}
-.pil2{grid-area: f;}
+.gridf-5{grid-area: e;}
+.gridf-6{grid-area: f;}
+.gridf-7{grid-area: g;}
 
 .gridf-box{
 display: grid;
 grid-template-areas:
 'e a a f'
 'e b c f'
-'d d d d';
+'e g d f';
 height: auto;
 background-color: #F4F2E9;
 }
@@ -683,11 +697,13 @@ background-color: #F4F2E9;
   padding-left: 2rem;
   display: flex;
   justify-content: center;
+  margin-left: auto;
 }
 
 .gridf-3{
   display: flex;
   justify-content: center;
+  margin-right: auto;
 }
 
 .gridf-3 img{
@@ -699,23 +715,20 @@ background-color: #F4F2E9;
 .gridf-4{
   display: flex;
   justify-content: center;
+  margin: 2.5%;
 }
 
-
-
-.pil1{
+.gridf-5{
   margin: auto;
-  margin-left: 2.5rem;
-  font-size: 4rem;
-  color: #2B3F43;
+  margin-left: 6.5rem;
 }
 
-.pil2{
+.gridf-6{
   margin: auto;
-  margin-left: 2.5rem;
-  font-size: 4rem;
-  color:#2B3F43;
+  margin-left: 6.5rem;
 }
+
+
 
 
 .title{ grid-area: a; }
