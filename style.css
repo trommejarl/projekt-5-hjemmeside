@@ -1607,3 +1607,48 @@ background-color: #F4F2E9;
   margin: auto;
 }
 
+/*mobil version af Om os*/
+
+@media (max-width: 500px) {
+
+  .grido2 img{
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    box-shadow: 3px 3px 5px #2B3F43;
+  }
+  
+  
+  .border_om img{
+   object-fit: cover;
+   height: auto;
+   width: 100%;
+   display: flex;
+  }
+  
+  .border_om{
+    padding-top: 100px;
+  }
+  
+    
+  .grido1{grid-area: a;}
+  .grido2{grid-area: b;}
+  .grido3{grid-area: c;}
+  .grido4{grid-area: d;}
+  
+  .grid-om_os{
+  display: grid;
+  grid-template-areas:
+  'd'
+  'b'
+  'a'
+  'c';
+  text-align: center;
+  grid-gap: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #F4F2E9;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  }
+}
