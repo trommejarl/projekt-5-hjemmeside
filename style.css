@@ -1538,3 +1538,72 @@ padding-bottom: 10%;
 
 
 }
+
+/*Dette er om os siden*/
+
+.border_om-settings{
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+}
+
+.grido1{
+  padding-right: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  padding: 5%;
+}
+
+.grido2 img{
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 3px 3px 5px #2B3F43;
+}
+
+.grido2{
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  padding: 5%;
+}
+
+.grido3{
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+}
+
+.grido4{
+  padding-left: 2.5rem;
+  display: flex;
+  justify-content: left;
+}
+
+.grido1{grid-area: a;}
+.grido2{grid-area: b;}
+.grido3{grid-area: c;}
+.grido4{grid-area: d;}
+
+
+.grid-om_os{
+display: grid;
+grid-template-areas:
+'d d'
+'a b'
+'c c';
+height: auto;
+background-color: #F4F2E9;
+}
+
+.grid-om_os p{
+  font-size: 25px;
+  line-height: 40px;
+  margin: auto;
+}
+
