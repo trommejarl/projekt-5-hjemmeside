@@ -1361,80 +1361,40 @@ height: 900px;
 
 /*spons side*/
 
-
-.spons img{
-  object-fit: cover;
-  height: 200px;
-  width: 200px;
-  box-shadow: 3px 3px 5px #2B3F43;
+.image-mosaic1 {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 240px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
 }
 
-.spons-1 {grid-area: 1; }
-.spons-2 {grid-area: 2; }
-.spons-3 {grid-area: 3; }
-.spons-4 {grid-area: 4; }
-.spons-5 {grid-area: 5; }
-.spons-6 {grid-area: 6; }
-.spons-7 {grid-area: 7; }
-.spons-8 {grid-area: 8; }
-.spons-9 {grid-area: 9; }
-.spons-10 {grid-area: 10; }
-.spons-11 {grid-area: 11; }
-.spons-12 {grid-area: 12; }
-.spons-13 {grid-area: 13; }
-.spons-14 {grid-area: 14; }
-.spons-15 {grid-area: 15; }
-.spons-16 {grid-area: 16; }
-.spons-17 {grid-area: 17; }
-.spons-18 {grid-area: 18; }
-.spons-19 {grid-area: 19; }
-.spons-20 {grid-area: 20; }
-.spons-21 {grid-area: 21; }
-.spons-22 {grid-area: 22; }
-.spons-23 {grid-area: 23; }
-.spons-24 {grid-area: 24; }
-.spons-25 {grid-area: 25; }
-.spons-26 {grid-area: 26; }
-.spons-27 {grid-area: 27; }
-.spons-28 {grid-area: 28; }
-.spons-29 {grid-area: 29; }
-.spons-30 {grid-area: 30; }
-.spons-31 {grid-area: 31; }
-.spons-32 {grid-area: 32; }
-.spons-33 {grid-area: 33; }
-.spons-34 {grid-area: 34; }
-.spons-35 {grid-area: 35; }
-.spons-36 {grid-area: 36; }
-.spons-37 {grid-area: 37; }
-.spons-38 {grid-area: 38; }
-.spons-39 {grid-area: 39; }
-.spons-40 {grid-area: 40; }
-.spons-41 {grid-area: 41; }
-.spons-42 {grid-area: 42; }
-.spons-43 {grid-area: 43; }
-.spons-44 {grid-area: 44; }
-.spons-45 {grid-area: 45; }
-.spons-46 {grid-area: 46; }
-.spons-47 {grid-area: 47; }
-.spons-48 {grid-area: 48; }
-.spons-49 {grid-area: 49; }
-.spons-50 {grid-area: 50; }
+.card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #353535;
+  font-size: 3rem;
+  color: #fff;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  transition: all 500ms;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
 
 .spons{
-  display: grid;
-  grid-template-areas:
-  '1 2 3 4 5'
-  '6 7 8 9 10'
-  '11 12 13 14 15'
-  '16 17 18 19 20'
-  '21 22 23 24 25'
-  '26 27 28 29 30'
-  '31 32 33 34 35'
-  '36 37 38 39 40'
-  '41 42 43 44 45'
-  '46 47 48 49 50';
-  grid-gap: 25px;
-  padding-top: 125px;
+  padding-top: 150px;
   padding-left: 50px;
   padding-right: 50px;
 }
