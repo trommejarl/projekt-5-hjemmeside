@@ -172,16 +172,32 @@ button:hover{
 
 /* menubar*/
 /* Kontakform*/
-.form {
-width: auto;
-color: var(--clr-font);
-padding: 5px;
-text-align: center;
-font-family: sans-serif;
+#form {
+align-items: center;
+ width: auto;
+ color: var(--clr-font);
+ padding: 5px;
+ text-align: center;
+ font-family: var(--ff-primary);
 }
 
-
+.tekstarea {
+  width: 500px;
+  height: 200px;
+}
+.tekstarea2 {
+  width: 500px;
+}
 /* Kontakform*/
+/* kontakt side */
+.kontaktbillede {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: auto;
+}
+/* kontakt side */
 
 
 /*Grid systemer*/
