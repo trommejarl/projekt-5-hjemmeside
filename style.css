@@ -252,6 +252,7 @@ align-items: center;
   justify-content: space-around;
   padding-left: 5rem;
   padding-right: 5rem;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .gf3-1{grid-area: a;}
