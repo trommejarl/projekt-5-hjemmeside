@@ -10,7 +10,7 @@
   --clr-font-secondary: #E9F4F4;
   --clr-header: #698B6F;
 
-  --fs-h1:   1.8rem;
+  --fs-h1:   3rem;
   --fs-h2:   1.5rem;
   --fs-nav:  20px;
 }
@@ -19,7 +19,7 @@ body {
   background-color:var(--clr--background)
 }
 
-/*
+
 .baggrund-billede{
   background-image: url("pictures/6.jpg");
   background-size: cover;
@@ -28,7 +28,7 @@ body {
   height: auto;
   max-height: 800px;
 }
-*/
+
 
 /* menubar */
 *{
@@ -251,15 +251,7 @@ align-items: center;
   max-width: 1920px;
   background-color: white;
   padding-top: 5rem;
-
-}
-
-.nyheder-forside{
-  display: flex;
   justify-content: space-around;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .gf3-1{grid-area: a;}
@@ -294,14 +286,8 @@ align-items: center;
 }
 
 .gf5{
-  display: flex;
-  justify-content: center;
-  display: grid;
-  grid-template-areas:
-  'a'
-  'b';
   width: 20rem;
-  line-height:25px;
+  line-height: 25px;
 }
 
 
@@ -309,16 +295,24 @@ align-items: center;
   width: 100%;
   padding: 0px;
   height: 20rem;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 5px #2B3F43;
 }
+
 .gf4-1{
   width: 100%;
   padding: 0px;
   height: 20rem;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 5px #2B3F43;
 }
+
 .gf5-1{
   width: 100%;
   padding: 0px;
   height: 20rem;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 5px #2B3F43;
 }
 
 .gf2{
@@ -467,8 +461,7 @@ footer{
     'a b'
     'c d';
   grid-template-columns: 1fr 1fr;
-  box-shadow: 0px 0px 5px #2B3F43;
-  margin-bottom: 2.5rem;
+
 }
 
 
@@ -484,9 +477,9 @@ footer{
     'b a'
     'd c';
   grid-template-columns: 1fr 1fr;
-  margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   background-color: white;
+  box-shadow: 0px 0px 5px #2B3F43;
 }
 
 
@@ -576,6 +569,7 @@ footer{
   width: 100%;
   max-width: 600px;
   box-shadow: 3px 3px 5px #2B3F43;
+  object-fit: cover;
 }
 
 .foverskrift{
@@ -1617,25 +1611,25 @@ background-color: #F4F2E9;
     width: 100%;
     box-shadow: 3px 3px 5px #2B3F43;
   }
-  
-  
+
+
   .border_om img{
    object-fit: cover;
    height: auto;
    width: 100%;
    display: flex;
   }
-  
+
   .border_om{
     padding-top: 100px;
   }
-  
-    
+
+
   .grido1{grid-area: a;}
   .grido2{grid-area: b;}
   .grido3{grid-area: c;}
   .grido4{grid-area: d;}
-  
+
   .grid-om_os{
   display: grid;
   grid-template-areas:
