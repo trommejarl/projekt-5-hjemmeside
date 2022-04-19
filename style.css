@@ -73,6 +73,7 @@ button{
 button:hover{
   background-color: #86B58E;
   color: #E9F4F4;
+  transition: 0.3s;
 }
 
 .navbar{
@@ -252,10 +253,16 @@ align-items: center;
   background-color: white;
   padding-top: 5rem;
   justify-content: space-around;
+  height: auto;
+}
+.nyheder-forside .gf-knap{
+  display: flex;
+  align-items: flex-end;
 }
 
 .gf3-1{grid-area: a;}
 .gf3-2{grid-area: b;}
+.gf-knap{grid-area: k;}
 .gf4-1{grid-area: a;}
 .gf4-2{grid-area: b;}
 .gf5-1{grid-area: a;}
@@ -268,7 +275,8 @@ align-items: center;
   display: grid;
   grid-template-areas:
   'a'
-  'b';
+  'b'
+  'k';
   width: 20rem;
   line-height:25px;
 }
@@ -279,15 +287,33 @@ align-items: center;
   display: grid;
   grid-template-areas:
   'a'
-  'b';
+  'b'
+  'k';
   width: 20rem;
   line-height:25px;
+}
 
+.gf5{
+  justify-content: center;
+  display: grid;
+  grid-template-areas:
+  'a'
+  'b'
+  'k';
+  width: 20rem;
+  line-height:25px;
 }
 
 .gf5{
   width: 20rem;
   line-height: 25px;
+}
+
+
+.gf-knap{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10%;
 }
 
 
