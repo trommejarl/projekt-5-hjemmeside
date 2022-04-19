@@ -18,6 +18,7 @@
     <meta name="theme-color" content="#ffffff">
 <script src="js-slide.js" defer></script>
 <script src="js-gallery.js" defer></script>
+<script src="js-submit.js" defer></script>
 
   </head>
   <body class="baggrund-billede">
@@ -49,12 +50,12 @@
   <nav></nav>
   <main>
     <div class="grid-forside">
-
-      <div class="arrow">
+      <div class="scrool-start" id="scroll"></div>
+      <div class="arrow"><a href="#scroll">
                       <span></span>
                       <span></span>
                       <span></span>
-
+</a>
       </div>
 
       <div class="gf1">
@@ -66,10 +67,10 @@
 
       </div>
 
+
 <div class="indhold-forside">
-
       <div class="gf2"><h1 id="gf2-h1">Det sker på H.C. Andersen Festspillene</h1></div>
-
+      <div class="scrool-start" id="scroll"></div>
 <div class="nyheder-forside">
       <div class="gf3">
         <div class="gf3-1"><img src="pictures/6.jpg" alt="forside-1"></div>
@@ -78,7 +79,7 @@
             <h4>Bliv frivillig til festspillene</h4>
               <p>Kom og vær med når vi til sommer går i gang med at klaregøre, bygge og opstille scenen til H. C. A. Festspillene 2022. Alle kan være med, så kunne du tænke dig, at svinge en hammer, save i træ eller male de store scener, så er det dig vi mangler. Læs mere her på siden.</p>
         </div>
-            <div class="gf-knap"><a href="frivillige.html"><button>Læs mere</button></a></div>
+            <div class="gf-knap"><a href="frivillige.html"><button>Bliv Frivillig</button></a></div>
       </div>
 
       <div class="gf4">
@@ -88,7 +89,7 @@
             <h4>Få udlevet din drøm, nu!</h4>
               <p>Går du med en skuespiller i maven? Så har du mulighed for at afprøve dine evner i vores forskellige opsætninger af H. C Andersens klassiske eventyr. Få en eventyrlig oplevelse, samtidig med du får opbygget sammenhold og venskaber for livet. Læs mere her på siden.</p>
         </div>
-        <div class="gf-knap"><a href="frivillige.html"><button>Læs mere</button></a></div>
+        <div class="gf-knap"><a href="frivillige.html"><button>Meld dig til</button></a></div>
       </div>
 
       <div class="gf5">
@@ -108,16 +109,18 @@
 
           <div class="box">
             <div class="box-indhold-1"><a href=""><img id="fb1" src="pictures/1.jpg" alt="forside-4"></a></div>
-              <div class="knap-f-2"><a href="forestillinger.html"><button>Læs mere</button></a></div>
-                <div class="box-indhold-2"><p>Kom og oplev magien til årets sommerforestilling i grønne omgivelser, når vi fremfører Hyrdinden og Skorstensfejeren til sommer. Oplev H. C. Andersens eventyrer på førstehånd og se hans fortællinger blive skildret gennem en magisk og fortryllende musical. Tag dine børn med i skoven, og giv dem en oplevelse de sent vil glemme. Læs mere ved at klikke på knappen herunder.</p></div>
+              <div class="knap-f-2"><a href="billetter.html"><button>Køb billetter</button></a></div>
+                <div class="box-indhold-2">
+                  <div class="tekst-1"><h2>Køb billetter nu</h2></div>
+                  <div class="tekst-2"><p>Kom og oplev magien til årets sommerforestilling i grønne omgivelser, når vi fremfører Hyrdinden og Skorstensfejeren til sommer. Oplev H. C. Andersens eventyrer på førstehånd og se hans fortællinger blive skildret gennem en magisk og fortryllende musical. Tag dine børn med i skoven, og giv dem en oplevelse de sent vil glemme. Køb billetter herunder.</p></div></div>
                   <div class="blank"></div>
         </div>
 
   <div class="indhold-forside-1">
 
         <div class="box-1">
-          <div class="box-indhold-2-1"><p>Mangler du sommerferie planer, så kom og bliv frivillig til H. C. Andersen Festspillene, og vær med til at forberede til årets sommerspil. Lær hvordan man svinger en hammer, bruger en sav eller syer de flotteste kjoler og kostumer. Og har du aldrig prøvet noget af det før, så være ikke bange. Du lærer det lynhurtigt af de mange allerede frvillige, der står for hele planlægningen.</p> <img src="pictures/hca.png" alt="H.C. Andersen"></div>
-            <div class="box-indhold-1-1"><a href=""><img id="fb1-1" src="pictures/9.jpg" alt="forside-4"></a></div>
+          <div class="box-indhold-2-1"><p>Kom og oplev magien til årets sommerforestilling i grønne omgivelser, når vi fremfører Hyrdinden og Skorstensfejeren til sommer. Oplev H. C. Andersens eventyrer på førstehånd og se hans fortællinger blive skildret gennem en magisk og fortryllende musical. Tag dine børn med i skoven, og giv dem en oplevelse de sent vil glemme. Læs mere ved at klikke på knappen herunder.</p> <img src="pictures/hca.png" alt="H.C. Andersen"></div>
+            <div class="box-indhold-1-1"><a href=""><img id="fb1-1" src="pictures/1.jpg" alt="forside-4"></a></div>
               <div class="blank"></div>
                 <div class="knap-f-2"><a href="frivillige.html"><button>Læs mere</button></a></div>
 
@@ -141,9 +144,23 @@
           </div>
 
       </div>
-
-
     </div>
+
+    <form action="action_page.php">
+  <div class="container">
+    <h2>Tilmeld dig vores nyhedsbrev</h2>
+    <p>Få månedlige opdateringer omkring kommende forestillinger.</p>
+  </div>
+
+  <div class="container">
+    <input type="text" placeholder="Fulde navn" name="name" required>
+    <input type="text" placeholder="Email" name="mail" required>
+  </div>
+
+  <div class="container" id="myBtn">
+    <input type="submit" value="Tilmeld">
+  </div>
+</form>
 
   </main>
   <footer>
