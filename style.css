@@ -1405,6 +1405,19 @@ height: 900px;
   text-align: center;
 }
 
+.tekst-1{ grid-area: aa; }
+.tekst-2 { grid-area: bb; }
+
+.box-indhold-2{
+  display: grid;
+  grid-template-areas:
+    'aa'
+    'bb';
+    align-items: center;
+    align-content: center;
+    grid-gap: 20px;
+}
+
 }
 
 /*spons side*/
