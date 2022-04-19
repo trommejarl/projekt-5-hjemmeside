@@ -1652,13 +1652,16 @@ background-color: #F4F2E9;
 .gridbil3{grid-area: c;}
 .gridbil4{grid-area: d;}
 .gridbil5{grid-area: e;}
+.gridbil6{grid-area: f;}
+.gridbil7{grid-area: g;}
+
  
 .gridbilbox{
 display: grid;
 grid-template-areas:
-'a a'
-'b c'
-'e d';
+'f a a g'
+'f b c g'
+'f e d g';
 height: auto;
 background-color:#F4F2E9;
 }
@@ -1666,30 +1669,31 @@ background-color:#F4F2E9;
 .gridbil1 {
   display: flex;
   justify-content: left;
-  padding-left: 2.5rem;
+  padding-left: 2rem;
   color: #2B3F43;
 
  
 }
  
+
+
 .gridbil2{
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
   display: flex;
   justify-content: center;
   margin-left: auto;
-  font-size: var(--fs-h1);
-  font-family: var(--ff-primary);
-  color: var(--clr-font);
+  font-size: 25px;
+  line-height: 40px;
 }
  
 .gridbil3{
   display: flex;
   justify-content: center;
   margin-right: auto;
-  padding-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 2.5%;
 }
  
 .gridbil3 img{
@@ -1703,4 +1707,14 @@ background-color:#F4F2E9;
   display: flex;
   justify-content: center;
   padding-bottom: 5%;
+}
+
+.gridbil6{
+  margin: auto;
+  margin-left: 6.5rem;
+}
+
+.gridbil7{
+  margin: auto;
+  margin-left: 6.5rem;
 }
