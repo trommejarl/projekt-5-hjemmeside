@@ -1729,6 +1729,18 @@ input[type=submit]:hover {
 
 /*billeter side website*/
 
+.borderbil{
+  padding: 0px;
+  margin: 0px;
+}
+
+.borderbil-settings{
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+
+}
+
 .gridbil1{grid-area: a;}
 .gridbil2{grid-area: b;}
 .gridbil3{grid-area: c;}
@@ -1785,6 +1797,7 @@ background-color:#F4F2E9;
   box-shadow: 3px 3px 5px #2B3F43;
 }
 
+
 .gridbil4{
   display: flex;
   justify-content: center;
@@ -1829,15 +1842,18 @@ background-color:#F4F2E9;
 
 @media (max-width: 500px) {
 
-
+  .borderbil img{
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    display: flex;
+   }
 
   .gridbil1{grid-area: a;}
   .gridbil2{grid-area: b;}
   .gridbil3{grid-area: c;}
   .gridbil4{grid-area: d;}
-  .gridbil5{grid-area: e;}
-  .gridbil6{grid-area: f;}
-  .gridbil7{grid-area: g;}
+ 
   
    
   .gridbilbox{
@@ -1847,8 +1863,13 @@ background-color:#F4F2E9;
   'b'
   'c'
   'd';
-  height: auto;
-  background-color:#F4F2E9;
+  text-align: center;
+  grid-gap: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #F4F2E9;
+  padding-top: 10%;
+  padding-bottom: 10%;
   }
    
   .gridbil1 {
