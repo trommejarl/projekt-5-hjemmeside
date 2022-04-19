@@ -1961,88 +1961,81 @@ background-color:#F4F2E9;
     margin: auto;
     margin-left: 6.5rem;
   }
-
 }
 
-  /*frillig side website*/
+/*frillig side website*/
 
-  .gridfri1{grid-area: a;}
-  .gridfri2{grid-area: b;}
-  .gridfri3{grid-area: c;}
-  .gridfri4{grid-area: d;}
-  .gridfri5{grid-area: e;}
-  .gridfri6{grid-area: f;}
-  .gridfri7{grid-area: g;}
+.gridfri1{grid-area: a;}
+.gridfri2{grid-area: b;}
+.gridfri3{grid-area: c;}
+.gridfri4{grid-area: d;}
+.gridfri5{grid-area: e;}
+.gridfri6{grid-area: f;}
+.gridfri7{grid-area: g;}
   
    
-  .gridfribox{
-  display: grid;
-  grid-template-areas:
-  'f a a g'
-  'f b c g'
-  'f d d g';
-  height: auto;
-  background-color:#F4F2E9;
-  }
+.gridfribox{
+display: grid;
+grid-template-areas:
+'f a a g'
+'f b c g'
+'f d d g';
+height: auto;
+background-color:#F4F2E9;
+}
    
-  .gridfri1 {
-    display: flex;
-    justify-content: left;
-    padding-left: 2rem;
-    color: #2B3F43;
-  
-   
-  }
+.gridfri1 {
+  display: flex;
+  justify-content: left;
+  padding-left: 2rem;
+  color: #2B3F43;
+}
    
   
   
-  .gridfri2{
-    padding-right: 2rem;
-    padding-left: 2rem;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    font-size: 25px;
-    line-height: 40px;
-  }
+.gridfri2{
+padding-right: 2rem;
+padding-left: 2rem;
+display: flex;
+justify-content: center;
+margin-left: auto;
+font-size: 25px;
+line-height: 40px;
+}
    
-  .gridfri3{
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 2.5%;
-  }
+.gridfri3{
+display: flex;
+justify-content: center;
+margin-right: auto;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 2.5%;
+}
    
-  .gridfri3 img{
-    object-fit: cover;
-    height: auto;
-    width: 100%;
-    box-shadow: 3px 3px 5px #2B3F43;
-  }
+.gridfri3 img{
+object-fit: cover;
+height: auto;
+width: 100%;
+box-shadow: 3px 3px 5px #2B3F43;
+}
   
-  .gridfri4{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5%;
-    padding-top: 5%;
-  }
+.gridfri4{
+display: flex;
+justify-content: center;
+padding-bottom: 5%;
+padding-top: 5%;
+}
   
-  .gridfri5{
-    margin: auto;
-    margin-left: 6.5rem;
+.gridfri5{
+margin: auto;
+margin-left: 6.5rem;    
+}  
+.gridfri6{
+margin: auto;
+margin-left: 6.5rem;
+}
   
-    
-  }
-  
-  
-  .gridfri6{
-    margin: auto;
-    margin-left: 6.5rem;
-  }
-  
-  .gridfri7{
-    margin: auto;
-    margin-left: 6.5rem;
-  } 
+.gridfri7{
+margin: auto;
+margin-left: 6.5rem;
+}
