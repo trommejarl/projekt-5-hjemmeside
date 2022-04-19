@@ -243,6 +243,10 @@ align-items: center;
   grid-template-areas:
     'aa'
     'bb';
+    align-items: center;
+    margin-right: 4rem;
+    align-content: center;
+    grid-gap: 20px;
 }
 
 .gf1{
@@ -501,7 +505,6 @@ footer{
     'a b'
     'c d';
   grid-template-columns: 1fr 1fr;
-
 }
 
 
@@ -527,12 +530,6 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.box-indhold-2{
-  display: flex;
-  align-items: center;
-  margin-right: 4rem;
 }
 
 .box-indhold-2 p{
@@ -575,6 +572,10 @@ footer{
 .box-indhold-2 p{
   font-size: 20px;
   line-height: 40px;
+}
+
+.tekst-1 h2{
+  font-size: 3rem;
 }
 
 #fo-icon a{
@@ -1749,7 +1750,7 @@ input[type=submit]:hover {
 .gridbil6{grid-area: f;}
 .gridbil7{grid-area: g;}
 
- 
+
 .gridbilbox{
 display: grid;
 grid-template-areas:
@@ -1759,16 +1760,16 @@ grid-template-areas:
 height: auto;
 background-color:#F4F2E9;
 }
- 
+
 .gridbil1 {
   display: flex;
   justify-content: left;
   padding-left: 2rem;
   color: #2B3F43;
 
- 
+
 }
- 
+
 
 
 .gridbil2{
@@ -1780,7 +1781,7 @@ background-color:#F4F2E9;
   font-size: 25px;
   line-height: 40px;
 }
- 
+
 .gridbil3{
   display: flex;
   justify-content: center;
@@ -1789,7 +1790,7 @@ background-color:#F4F2E9;
   padding-right: 5%;
   padding-bottom: 2.5%;
 }
- 
+
 .gridbil3 img{
   object-fit: cover;
   height: auto;
@@ -1853,9 +1854,17 @@ background-color:#F4F2E9;
   .gridbil2{grid-area: b;}
   .gridbil3{grid-area: c;}
   .gridbil4{grid-area: d;}
+<<<<<<< Updated upstream
  
   
    
+=======
+  .gridbil5{grid-area: e;}
+  .gridbil6{grid-area: f;}
+  .gridbil7{grid-area: g;}
+
+
+>>>>>>> Stashed changes
   .gridbilbox{
   display: grid;
   grid-template-areas:
@@ -1871,16 +1880,16 @@ background-color:#F4F2E9;
   padding-top: 10%;
   padding-bottom: 10%;
   }
-   
+
   .gridbil1 {
     display: flex;
     justify-content: center;
     padding-left: 2rem;
     color: #2B3F43;
-  
-   
+
+
   }
-   
+
   .gridbil2{
     padding-right: 2rem;
     padding-left: 2rem;
@@ -1890,7 +1899,7 @@ background-color:#F4F2E9;
     font-size: 25px;
     line-height: 40px;
   }
-   
+
   .gridbil3{
     display: flex;
     justify-content: center;
@@ -1899,21 +1908,21 @@ background-color:#F4F2E9;
     padding-right: 5%;
     padding-bottom: 2.5%;
   }
-   
+
   .gridbil3 img{
     object-fit: cover;
     height: auto;
     width: 100%;
     box-shadow: 3px 3px 5px #2B3F43;
   }
-  
+
   .gridbil4{
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
     padding-top: 5%;
   }
-  
+
   .button-billetter{
     background-color: #A2D5AB;
     border: none;
@@ -1929,18 +1938,18 @@ background-color:#F4F2E9;
     height: 100px;
     font-weight: bold;
   }
-  
+
   .button-biletter:hover{
     background-color: #86B58E;
     color: #E9F4F4;
     transition: 0.3s;
   }
-  
+
   .gridbil6{
     margin: auto;
     margin-left: 6.5rem;
   }
-  
+
   .gridbil7{
     margin: auto;
     margin-left: 6.5rem;
