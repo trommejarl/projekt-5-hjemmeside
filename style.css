@@ -1672,3 +1672,61 @@ background-color: #F4F2E9;
   padding-bottom: 10%;
   }
 }
+
+.gridbil1{grid-area: a;}
+.gridbil2{grid-area: b;}
+.gridbil3{grid-area: c;}
+.gridbil4{grid-area: d;}
+.gridbil5{grid-area: e;}
+ 
+.gridbilbox{
+display: grid;
+grid-template-areas:
+'a a'
+'b c'
+'e d';
+height: auto;
+background-color:#F4F2E9;
+}
+ 
+.gridbil1 {
+  display: flex;
+  justify-content: left;
+  padding-left: 2.5rem;
+  color: #2B3F43;
+
+ 
+}
+ 
+.gridbil2{
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  font-size: var(--fs-h1);
+  font-family: var(--ff-primary);
+  color: var(--clr-font);
+}
+ 
+.gridbil3{
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+ 
+.gridbil3 img{
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+  box-shadow: 3px 3px 5px #2B3F43;
+}
+
+.gridbil4{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
