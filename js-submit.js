@@ -1,3 +1,12 @@
 document.getElementById("myBtn").addEventListener("click", function() {
-  alert("Du er nu tilmeldt..");
+  if (document.getElementById("navn-1").value == ""){
+
+  }
+else if (document.getElementById("navn-2").value == "") {
+
+}
+
+  else {
+    alert("Du er nu tilmeldt..");
+  }
 });
