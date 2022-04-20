@@ -177,44 +177,45 @@ button:hover{
 
 /* menubar*/
 /* Kontakform*/
-#form {
-align-content: center;
- width: 400px;
- color: var(--clr-font);
- padding: 5px;
- text-align: center;
- font-family: var(--ff-primary);
-}
-
-.tekstarea {
-  width: 400px;
-  height: 200px;
-}
-.tekstarea2 {
-  width: 400px;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
 /* Kontakform*/
-/* kontakt side */
-.kontaktbillede {
-  display: flex;
+#form {
   align-content: center;
-  margin: auto;
-  width: 100%;
-  height: auto;
-  z-index: -1;
-}
-
-.boks1 {
- padding-left: 100px;
- border-radius: 300px;
-}
-
-/* kontakt side */
+   width: 400px;
+   color: var(--clr-font);
+   padding: 5px;
+   text-align: center;
+   font-family: var(--ff-primary);
+  }
+  
+  .tekstarea {
+    width: 400px;
+    height: 200px;
+  }
+  .tekstarea2 {
+    width: 400px;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  /* Kontakform*/
+  /* kontakt side */
+  
+  .boks1 {
+   align-items: center;
+   justify-content: space-between;
+   width: 600px;
+  }
+  
+  .kontakt-knap{
+    align-content: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
 
 /*Grid systemer*/

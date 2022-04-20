@@ -46,30 +46,30 @@
 <script src="js/menu.js"></script>
 <!-- menubar -->
 
-<img class="kontaktbillede" src="pictures/8.jpg" alt="eventyr">
+<div class="borderbox-top">
+  <div class="borderbil"><img class="borderbil-settings" src="pictures/border.png" alt="kontakt-border"></div>
 
-<div class="gf2"><h1 id="gf2-h1">Kontakt</h1></div>
-<br>
+ <div class="gridbilbox">
+   <div class="boks1">
+    <h1>Kontakt</h1>
+    <br>
+    <p>H. C. Andersen festspillene sekretariat og administartion ligger på:<br>
+       Kanalvej 154C<br>
+       5000 Odense C</p>
+       <br>
+       <p><b>Kontoret er åben efter aftale</b></p>
+       <br>
+       <p>Sekretariatet<br>
+          Telefon: 24 22 09 56<br>
+          E-mail: mail@hcandersenfestspillene.dk</p>
+       <br>
+       <p><i>Ved andre forspørgelser, brug da nedestående kontaktformular, og vi vender hurtigst muligt tilbage med svar</i></p>
+   </div>
 
-<div class="boks1">
-<p><b>Kontakt</b></p>
-<br>
-<p>H. C. Andersen festspillene sekretariat og administartion ligger på:<br>
-Kanalvej 154C<br>
-5000 Odense C</p>
-<br>
-<p><b>Kontoret er åben efter aftale</b></p>
-<br>
-<p>Sekretariatet<br>
-Telefon: 24 22 09 56<br>
-E-mail: mail@hcandersenfestspillene.dk</p>
-<br>
-<p><i>Ved andre forspørgelser, brug da nedestående kontaktformular, og vi vender hurtigst muligt tilbage med svar</i></p>
-</div>
-<br>
 
-  <form id="form" action="#" method="post">
-    <input class="tekstarea2" type="text" placeholder="Fulde navn" name="name" required/>
+  <div class="boks1">
+    <form id="form" action="#" method="post">
+      <input class="tekstarea2" type="text" placeholder="Fulde navn" name="name" required/>
       <br/>
       <input class="tekstarea2" type="text" placeholder="Email" name="mail" required/>
       <br/>
@@ -78,14 +78,16 @@ E-mail: mail@hcandersenfestspillene.dk</p>
       <br>
       <textarea class="tekstarea">Angiv din forespørgelse her</textarea>
       <br/>
-      <button onclick="myFunction()">Send</button>
+      <button class="kontakt-knap" onclick="myFunction()">Send</button>
        <script>
         function myFunction() {
          alert("Dette er en prototype");}
        </script>
-      <button type="reset" value="SLET">Slet</button>
+      <button class="kontakt-knap" type="reset" value="SLET">Slet</button>
       </form>
-      <br>
+  </div>
+ </div> 
+</div>
 
 
 
