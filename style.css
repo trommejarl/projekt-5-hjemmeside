@@ -1048,6 +1048,32 @@ background-color: #F4F2E9;
 
 @media (max-width: 500px) {
 
+  .ga-til-top{
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  position: fixed;
+  display: none;
+  cursor: pointer;
+  }
+
+  .ga-til-top:hover{
+  bottom: 5px;
+  transition: .5s;
+  }
+
+  .ga-til-top i{
+  font-size: 100px;
+  color: #A2D5AB
+
+  }
+
+  .ga-til-top i:hover{
+  font-size: 100px;
+  color:#2B3F43;
+  transition: .5s;
+  }
+
   .tekst-1-1{ grid-area: a; }
   .tekst-1-2{ grid-area: b; }
 
@@ -1898,8 +1924,6 @@ background-color:#F4F2E9;
 
 
 }
-
-
 
 .gridbil2{
   padding-right: 2rem;
