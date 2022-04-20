@@ -178,8 +178,8 @@ button:hover{
 /* menubar*/
 /* Kontakform*/
 #form {
-align-items: center;
- width: auto;
+align-content: center;
+ width: 400px;
  color: var(--clr-font);
  padding: 5px;
  text-align: center;
@@ -187,11 +187,11 @@ align-items: center;
 }
 
 .tekstarea {
-  width: 500px;
+  width: 400px;
   height: 200px;
 }
 .tekstarea2 {
-  width: 500px;
+  width: 400px;
   padding: 12px;
   margin: 8px 0;
   display: inline-block;
