@@ -180,6 +180,8 @@ button:hover{
 /* menubar*/
 /* Kontakform*/
 /* Kontakform*/
+@media (min-width:500px){
+
 #form {
   align-content: center;
    width: 400px;
@@ -203,13 +205,7 @@ button:hover{
   }
   /* Kontakform*/
   /* kontakt side */
-  
-  .boks1 {
-   align-items: center;
-   justify-content: space-between;
-   width: 600px;
-  }
-  
+
   .kontakt-knap{
     align-content: center;
     justify-content: space-between;
@@ -218,6 +214,37 @@ button:hover{
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .boks1{grid-area: a; }
+  .boks2{grid-area: b; }
+
+  .gridbilbox-kontakt{
+    display: grid;
+    grid-template-areas:
+    'a b';
+    width: 100%;
+    background-color: #F4F2E9;
+    padding: 5rem;
+  }
+}
+@media (max-width:500px){
+  .boks1{grid-area: a; }
+  .boks2{grid-area: b; }
+
+  .gridbilbox-kontakt{
+    display: grid;
+    grid-template-areas:
+    'a'
+    'b';
+    width: 100%;
+    background-color: #F4F2E9;
+   
+    justify-content: center;
+  }
+
+}
+
+ /* kontakt side */
 
 
 /*Grid systemer*/
