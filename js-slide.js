@@ -1,9 +1,8 @@
 let imgArray = [
-      'pictures/4.jpg',
-      'pictures/5.jpg',
-      'pictures/1.jpg',
-      'pictures/6.jpg',
-      'pictures/7.jpg'
+      'pictures/4-1.jpg',
+      'pictures/5-1.jpg',
+      'pictures/1-1.jpg',
+      'pictures/7-1.jpg'
   ];
   let curIndex = 0;
   let imgDuration = 7000;

@@ -6,7 +6,7 @@
 
   --clr--background:  #white;
   --clr--background-secondary: #F4F2E9;
-  --clr-font:   #2B3F43;
+  --clr-font:   #379846;
   --clr-font-secondary: #E9F4F4;
   --clr-header: #4B7652;
 
@@ -43,8 +43,16 @@ html{
 }
 
 header{
+  
+  opacity: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.side{
   background-color: var(--clr-header);
-  opacity: 90%;
+  opacity: 100%;
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -82,7 +90,7 @@ button:hover{
 }
 
 .navbar{
-  min-height: 75px;
+  min-height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,7 +103,8 @@ button:hover{
   justify-content: space-between;
   align-items: center;
   gap: 60px;
-  font-size: 1rem;
+  font-size: 1.6rem;
+  text-shadow: 1px 1px #2B3F43;
 }
 
 .nav-link{
@@ -122,8 +131,8 @@ button:hover{
 
 #logo-nav{
   width: auto;
-  max-width: 150px;
-  margin-right: 40px;
+  max-width: 200px;
+  margin-right: 20px;
 }
 
 .active{
@@ -508,16 +517,12 @@ transition: .5s;
 #gf2-h1{
   font-size: var(--fs-h1);
   font-family: var(--ff-primary);
-  color: var(--clr-font);
+  color: #2B3F43;
 }
 
 
 
 /*Grid footer*/
-
-footer{
-  background-color: #698B6F;
-}
 
 .gfo1{ grid-area: a; }
 .gfo2{ grid-area: b; }

@@ -1,11 +1,11 @@
-mybutton = document.getElementById("bagg");
+console.log("lol")
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
 
-window.onscroll = function() {scrollFunction1()};
+  document.getElementById("bagg").style.background = "#4B7652";
+} else {
 
-function scrollFunction1() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
+  document.getElementById("bagg").style.background = "none";
+}
 }
