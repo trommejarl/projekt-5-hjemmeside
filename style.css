@@ -190,7 +190,7 @@ button:hover{
    text-align: center;
    font-family: var(--ff-primary);
   }
-  
+
   .tekstarea {
     width: 400px;
     height: 200px;
@@ -205,6 +205,12 @@ button:hover{
   }
   /* Kontakform*/
   /* kontakt side */
+
+  .boks1 {
+   align-items: center;
+   justify-content: space-between;
+   width: 600px;
+  }
 
   .kontakt-knap{
     align-content: center;
@@ -238,7 +244,7 @@ button:hover{
     'b';
     width: 100%;
     background-color: #F4F2E9;
-   
+
     justify-content: center;
   }
 
@@ -332,6 +338,10 @@ button:hover{
 
 .gf1 img {
   vertical-align: bottom;
+  width: 100%;
+  max-width: 1920px;
+  object-fit: cover;
+  height: auto;
 }
 
 .gf7{
@@ -457,45 +467,7 @@ button:hover{
   color: var(--clr-font);
 }
 
-#gf1-pic{
-  width: 100%;
-  max-width: 1920px;
-  object-fit: cover;
-  height: auto;
-}
 
-#gf2-pic{
-  width: 100%;
-  max-width: 1920px;
-  object-fit: cover;
-  height: auto;
-}
-#gf3-pic{
-  width: 100%;
-  max-width: 1920px;
-  object-fit: cover;
-  height: auto;
-}
-#gf4-pic{
-  width: 100%;
-  max-width: 1920px;
-  object-fit: cover;
-  height: auto;
-}
-#gf5-pic{
-  width: 100%;
-  max-width: 1920px;
-  object-fit: cover;
-  height: auto;
-}
-/*
-#gf5-pic{
-  width: 100%;
-  max-width: 1920px;
-  object-fit: cover;
-  height: auto;
-}
-*/
 
 /*Grid footer*/
 
@@ -2052,8 +2024,8 @@ background-color:#F4F2E9;
 .gridfri5{grid-area: e;}
 .gridfri6{grid-area: f;}
 .gridfri7{grid-area: g;}
-  
-   
+
+
 
 .gridfribox{
 display: grid;
@@ -2064,7 +2036,7 @@ grid-template-areas:
 height: auto;
 background-color:#F4F2E9;
 }
-   
+
 .gridfri1 {
   display: flex;
   justify-content: left;
@@ -2081,7 +2053,7 @@ background-color:#F4F2E9;
   height: auto;
   background-color:#F4F2E9;
   }
-   
+
   .gridfri1 {
     display: flex;
     justify-content: left;
@@ -2089,9 +2061,9 @@ background-color:#F4F2E9;
     color: #2B3F43;
   }
 
-   
-  
-  
+
+
+
 .gridfri2{
 padding-right: 2rem;
 padding-left: 2rem;
@@ -2101,7 +2073,7 @@ margin-left: auto;
 font-size: 25px;
 line-height: 40px;
 }
-   
+
 .gridfri3{
 display: flex;
 justify-content: center;
@@ -2110,7 +2082,7 @@ padding-left: 5%;
 padding-right: 5%;
 padding-bottom: 2.5%;
 }
-   
+
 
 .gridfri3 img{
 object-fit: cover;
@@ -2118,23 +2090,23 @@ height: auto;
 width: 100%;
 box-shadow: 3px 3px 5px #2B3F43;
 }
-  
+
 .gridfri4{
 display: flex;
 justify-content: center;
 padding-bottom: 5%;
 padding-top: 5%;
 }
-  
+
 .gridfri5{
 margin: auto;
-margin-left: 6.5rem;    
-}  
+margin-left: 6.5rem;
+}
 .gridfri6{
 margin: auto;
 margin-left: 6.5rem;
 }
-  
+
 .gridfri7{
 margin: auto;
 margin-left: 6.5rem;
@@ -2146,14 +2118,14 @@ margin-left: 6.5rem;
     width: 100%;
     box-shadow: 3px 3px 5px #2B3F43;
   }
-  
+
   .gridfri4{
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
     padding-top: 5%;
   }
-  
+
   .borderfri-settings{
     width: 100%;
     max-width: 1920px;
@@ -2164,7 +2136,7 @@ margin-left: 6.5rem;
     padding: 0px;
     margin: 0px;
   }
-  
+
   .gridbil1{
     padding-bottom: 2.5rem;
   }
