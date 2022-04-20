@@ -742,10 +742,12 @@ background-color: #F4F2E9;
 }
 
 .gridf3 img{
-  width: 100%;
-  max-width: 600px;
+  width: 600px;
+  object-fit: cover;
+  height: 450px;
   box-shadow: 3px 3px 5px #2B3F43;
 }
+
 
 .gridf4{
   display: flex;
