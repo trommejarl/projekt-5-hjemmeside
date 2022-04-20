@@ -44,10 +44,21 @@ html{
 
 header{
   background-color: var(--clr-header);
-  opacity: 90%;
+  opacity: 100%;
   position: fixed;
   width: 100%;
-  z-index: 2;
+  z-index: 5;
+}
+
+.baggrund{
+  background-color: var(--clr-header);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  top:0;
+  min-height: 75px;
+  padding: 0 24px;
+    <div class="baggrund"></div>
 }
 
 li{
