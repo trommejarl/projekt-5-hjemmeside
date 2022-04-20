@@ -47,6 +47,7 @@ header{
   opacity: 90%;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 li{
@@ -86,6 +87,7 @@ button:hover{
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  z-index: 100;
 }
 
 .nav-menu{
@@ -163,7 +165,7 @@ button:hover{
   font-size: var(--fs-nav);
   text-align: center;
   transition: 0.3s;
-  z-index: 9999;
+  z-index: 100;
 }
 
 .nav-item{
@@ -177,50 +179,86 @@ button:hover{
 
 /* menubar*/
 /* Kontakform*/
-#form {
-align-content: center;
- width: 400px;
- color: var(--clr-font);
- padding: 5px;
- text-align: center;
- font-family: var(--ff-primary);
-}
-
-.tekstarea {
-  width: 400px;
-  height: 200px;
-}
-.tekstarea2 {
-  width: 400px;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
 /* Kontakform*/
-/* kontakt side */
-.kontaktbillede {
-  display: flex;
+#form {
   align-content: center;
-  margin: auto;
-  width: 100%;
-  height: auto;
-  z-index: -1;
-}
-
-.boks1 {
- padding-left: 100px;
- border-radius: 300px;
-}
-
-/* kontakt side */
+   width: 400px;
+   color: var(--clr-font);
+   padding: 5px;
+   text-align: center;
+   font-family: var(--ff-primary);
+  }
+  
+  .tekstarea {
+    width: 400px;
+    height: 200px;
+  }
+  .tekstarea2 {
+    width: 400px;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  /* Kontakform*/
+  /* kontakt side */
+  
+  .boks1 {
+   align-items: center;
+   justify-content: space-between;
+   width: 600px;
+  }
+  
+  .kontakt-knap{
+    align-content: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
 
 /*Grid systemer*/
 
 /*Grid forside*/
 @media (min-width:500px){
+
+
+  .container-mail {
+    padding: 20px;
+    background-color: #F4F2E9;
+    color: #2B3F43;
+    text-align: center;
+  }
+
+  .container-mail input[type=text], input[type=submit] {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .container-mail input[type=submit] {
+    background-color: #A2D5AB;
+    color: #2B3F43;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+  }
+
+  .container-mail input[type=submit]:hover {
+    background-color: #86B58E;
+    color: #E9F4F4;
+    transition: 0.3s;
+  }
 
 .gf1{ grid-area: a; }
 .gf2{ grid-area: b; }
@@ -240,6 +278,11 @@ align-content: center;
     'h';
 }
 
+.indhold-forside{
+  z-index: 1;
+}
+
+
 .tekst-1{ grid-area: aa; }
 .tekst-2 { grid-area: bb; }
 
@@ -248,15 +291,20 @@ align-content: center;
   grid-template-areas:
     'aa'
     'bb';
-    align-items: center;
-    margin-right: 4rem;
-    align-content: center;
-    grid-gap: 20px;
+  align-items: center;
+  margin-right: 4rem;
+  align-content: center;
+  grid-gap: 20px;
 }
 
 .gf1{
   height: auto;
   max-height: 800px;
+  position: relative;
+}
+
+.gf1 img {
+  vertical-align: bottom;
 }
 
 .gf7{
@@ -387,7 +435,6 @@ align-content: center;
   max-width: 1920px;
   object-fit: cover;
   height: auto;
-  max-height: 800px;
 }
 
 #gf2-pic{
@@ -401,23 +448,27 @@ align-content: center;
   max-width: 1920px;
   object-fit: cover;
   height: auto;
-  max-height: 800px;
 }
 #gf4-pic{
   width: 100%;
   max-width: 1920px;
   object-fit: cover;
   height: auto;
-  max-height: 800px;
 }
 #gf5-pic{
   width: 100%;
   max-width: 1920px;
   object-fit: cover;
   height: auto;
-  max-height: 800px;
 }
-
+/*
+#gf5-pic{
+  width: 100%;
+  max-width: 1920px;
+  object-fit: cover;
+  height: auto;
+}
+*/
 
 /*Grid footer*/
 
@@ -911,9 +962,9 @@ background-color: #F4F2E9;
 
 .arrow{
     position: absolute;
-    top: 94%;
+    bottom: 6%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%);
 }
 .arrow span{
     display: block;
@@ -950,6 +1001,41 @@ background-color: #F4F2E9;
 /*Grid mobile version*/
 
 @media (max-width: 500px) {
+
+  .container-mail {
+    padding: 20px;
+    background-color: #F4F2E9;
+    color: #2B3F43;
+    text-align: center;
+  }
+
+  .container-mail input[type=text], input[type=submit] {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .container-mail input[type=submit] {
+    background-color: #A2D5AB;
+    color: #2B3F43;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+  }
+
+  .container-mail input[type=submit]:hover {
+    background-color: #86B58E;
+    color: #E9F4F4;
+    transition: 0.3s;
+  }
+
 
 main {
   background-color: white;
@@ -1590,7 +1676,6 @@ padding-bottom: 10%;
   justify-content: center;
 }
 
-
 }
 
 /*Dette er om os siden*/
@@ -1708,44 +1793,6 @@ background-color: #F4F2E9;
   }
 }
 
-form {
-  border: 4px solid #f1f1f1;
-}
-
-.container {
-  padding: 20px;
-  background-color: #F4F2E9;
-  color: #2B3F43;
-  text-align: center;
-}
-
-input[type=text], input[type=submit] {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-input[type=submit] {
-  background-color: #A2D5AB;
-  color: #2B3F43;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-input[type=submit]:hover {
-  background-color: #86B58E;
-  color: #E9F4F4;
-  transition: 0.3s;
-}
 
 
 /*billeter side website*/
