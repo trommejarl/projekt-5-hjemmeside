@@ -1979,6 +1979,7 @@ background-color:#F4F2E9;
 .gridfri7{grid-area: g;}
   
    
+
 .gridfribox{
 display: grid;
 grid-template-areas:
@@ -1995,6 +1996,24 @@ background-color:#F4F2E9;
   padding-left: 2rem;
   color: #2B3F43;
 }
+
+  .gridfribox{
+  display: grid;
+  grid-template-areas:
+  'f a a g'
+  'f b c g'
+  'f d d g';
+  height: auto;
+  background-color:#F4F2E9;
+  }
+   
+  .gridfri1 {
+    display: flex;
+    justify-content: left;
+    padding-left: 2rem;
+    color: #2B3F43;
+  }
+
    
   
   
@@ -2017,6 +2036,7 @@ padding-right: 5%;
 padding-bottom: 2.5%;
 }
    
+
 .gridfri3 img{
 object-fit: cover;
 height: auto;
@@ -2043,4 +2063,37 @@ margin-left: 6.5rem;
 .gridfri7{
 margin: auto;
 margin-left: 6.5rem;
+}
+
+  .gridfri3 img{
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    box-shadow: 3px 3px 5px #2B3F43;
+  }
+  
+  .gridfri4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  
+  .borderfri-settings{
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+  }
+
+  .borderfri{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .gridbil1{
+    padding-bottom: 2.5rem;
+  }
+
+.gridfri1{
+  padding-bottom: 2.5rem;
 }
