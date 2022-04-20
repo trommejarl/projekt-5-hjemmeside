@@ -8,7 +8,7 @@
   --clr--background-secondary: #F4F2E9;
   --clr-font:   #2B3F43;
   --clr-font-secondary: #E9F4F4;
-  --clr-header: #698B6F;
+  --clr-header: #4B7652;
 
   --fs-h1:   3rem;
   --fs-h2:   1.5rem;
@@ -44,7 +44,7 @@ html{
 
 header{
   background-color: var(--clr-header);
-  opacity: 1000%;
+  opacity: 90%;
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -82,7 +82,7 @@ button:hover{
 }
 
 .navbar{
-  min-height: 90px;
+  min-height: 75px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -127,7 +127,7 @@ button:hover{
 }
 
 .active{
-  color: #2B3F43;
+  color: #A2D5AB;
 }
 
 @media (max-width:1200px){
@@ -258,6 +258,32 @@ button:hover{
 /*Grid forside*/
 @media (min-width:500px){
 
+.ga-til-top{
+bottom: 0;
+right: 0;
+z-index: 5;
+position: fixed;
+display: none;
+cursor: pointer;
+}
+
+.ga-til-top:hover{
+bottom: 5px;
+transition: .5s;
+}
+
+.ga-til-top i{
+font-size: 100px;
+color: #A2D5AB
+
+}
+
+.ga-til-top i:hover{
+font-size: 100px;
+color:#2B3F43;
+transition: .5s;
+}
+
 
   .tekst-1-1{ grid-area: a; }
   .tekst-1-2{ grid-area: b; }
@@ -270,6 +296,8 @@ button:hover{
       align-items: center;
       align-content: center;
       grid-gap: 20px;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
   }
 
 
@@ -376,6 +404,7 @@ button:hover{
   padding-top: 5rem;
   justify-content: space-around;
   height: auto;
+  color: #2B3F43;
 }
 .nyheder-forside .gf-knap{
   display: flex;
@@ -499,7 +528,7 @@ footer{
     'a b c';
     width: auto;
     max-width: 1920px;
-    background-color: #698B6F;
+    background-color: #4B7652;
     height: auto;
     grid-template-columns: 1fr 1fr 1fr;
     line-height: 2.5rem;
@@ -574,6 +603,7 @@ footer{
     'a b'
     'c d';
   grid-template-columns: 1fr 1fr;
+  color: #2B3F43;
 }
 
 
@@ -583,15 +613,16 @@ footer{
 .blank { grid-area: d; }
 
 .box-1{
-  height: 600px;
+  height: auto;
   display: grid;
   grid-template-areas:
     'b a'
     'd c';
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
   background-color: white;
-  box-shadow: 0px 0px 5px #2B3F43;
+  padding-top: 2.5rem;
+  color: #2B3F43;
 }
 
 .box-indhold-1{
@@ -755,8 +786,6 @@ background-color: #F4F2E9;
   margin: 2.5%;
 }
 
-
-
 .gridf6{
   margin: auto;
   margin-left: 6.5rem;
@@ -845,9 +874,6 @@ background-color: #F4F2E9;
   margin: auto;
   margin-left: 6.5rem;
 }
-
-
-
 
 .title{ grid-area: a; }
 .knap-galleri{ grid-area: b; }
@@ -1029,6 +1055,7 @@ background-color: #F4F2E9;
     'a'
     'b';
     grid-gap: 20px;
+    color: #2B3F43;
   }
 
   .container-mail {
@@ -1210,6 +1237,7 @@ height: 900px;
   'h'
   'i'
   'k';
+  color: #2B3F43;
 }
 
 .gf2{
@@ -1229,6 +1257,7 @@ height: 900px;
   'b'
   'c';
   grid-gap: 50px;
+  color: #2B3F43;
 }
 
 .gf3{
@@ -1319,6 +1348,7 @@ height: 900px;
   padding-bottom: 60px;
   padding-left: 20px;
   padding-right: 20px;
+  color: #2B3F43;
 }
 
 .box > * {
@@ -1350,6 +1380,7 @@ height: 900px;
   'c';
   grid-gap: 15px;
   margin-top: 50px;
+  color: #2B3F43;
 }
 
 .box-1 > * {
@@ -1358,6 +1389,7 @@ height: 900px;
   line-height: 30px;
   padding-left: 20px;
   padding-right: 20px;
+
 }
 
 .title{ grid-area: a; }
