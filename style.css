@@ -159,7 +159,7 @@ button:hover{
   flex-direction: column;
   background-color: var(--clr-header);
   width: 100%;
-  opacity: 90%;
+  opacity: 95%;
   font-family: var(--ff-primary);
   font-weight: var(--fw-reg);
   font-size: var(--fs-nav);
