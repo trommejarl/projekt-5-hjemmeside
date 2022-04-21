@@ -19,4 +19,4 @@ slideShow();
 //der skal laves en + og - regnestykke
 //lav en funktion til der læser om regnestykket er størrer eller mindre end facit på regnestykket. 
 //mangler loop
-//
+// 
