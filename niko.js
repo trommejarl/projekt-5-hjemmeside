@@ -16,7 +16,11 @@ function slideShow() {
 }
 slideShow();
 
-//der skal laves en + og - regnestykke
-//lav en funktion til der læser om regnestykket er størrer eller mindre end facit på regnestykket. 
-//mangler loop
-// 
+//Loop i console for at have det med//
+
+var s = "";
+for(var i = 1; i < 11; i += 1) {
+  s += i + " ";
+}
+console.log(s);
+
