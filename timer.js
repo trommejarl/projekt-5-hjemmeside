@@ -1,3 +1,7 @@
+//Javascript Nikolai//
+
+
+
 // Indsæt dato der tælles ned til
 var nedtællingsDato = new Date("May 13, 2022 12:00:00").getTime();
 

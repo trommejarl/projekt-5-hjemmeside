@@ -1,3 +1,5 @@
+//Javascript af Nikolai//
+
 let imgArray = [
     'pictures/hyrdinden1.jpg',
     'pictures/HC_11.jpg',
@@ -15,6 +17,8 @@ function slideShow() {
     setTimeout("slideShow()", imgDuration);
 }
 slideShow();
+
+//loop i console af Nikolai//
 
 //Loop i console for at have det med//
 
