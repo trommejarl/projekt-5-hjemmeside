@@ -2,7 +2,7 @@
 
 let imgArray = [
     'pictures/hyrdinden1.jpg',
-    'pictures/HC_11.jpg',
+    'pictures/hcanden.jpg',
     'pictures/5.jpg',
     'pictures/6.jpg',
     'pictures/7.jpg'
