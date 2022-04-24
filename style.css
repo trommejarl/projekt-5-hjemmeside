@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color:var(--clr--background)
+  background-color: white;
 }
 
 html{
@@ -65,7 +65,6 @@ li{
 a{
   color: var(--clr-font-secondary);
   text-decoration: none;
-  font-size: var(--fw-reg);
 }
 
 button{
@@ -798,8 +797,6 @@ background-color: #F4F2E9;
   flex-direction: row;
 }
 
-#timer{
-  float: top;
 
 }
 .gridf6{
@@ -1056,7 +1053,6 @@ background-color: #F4F2E9;
     }
 }
 
-}
 
 /*Grid mobile version*/
 
@@ -2497,6 +2493,5 @@ margin-left: 6.5rem;
   }
 
   #timer2{
-    float: top;
     font-size: 25px;
   }
