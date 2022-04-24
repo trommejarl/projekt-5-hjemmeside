@@ -1,5 +1,5 @@
 :root{
-  --ff-primary: 'Teen';
+  --ff-primary:'Roboto', sans-serif;;
 
   --fw-reg:  300;
   --fx-bold: 900;
@@ -43,7 +43,7 @@ html{
 }
 
 header{
-  
+
   opacity: 100%;
   position: fixed;
   width: 100%;
@@ -2219,37 +2219,37 @@ margin-left: 6.5rem;
   width: 100%;
   box-shadow: 3px 3px 5px #2B3F43;
   }
-  
+
   .gridfri4{
   display: flex;
   justify-content: center;
   padding-bottom: 5%;
   padding-top: 5%;
   }
-  
+
   .borderfri-settings{
   width: 100%;
   max-width: 1920px;
   display: flex;
   }
-  
+
   .borderfri{
   padding: 0px;
   margin: 0px;
   }
-  
+
   .gridbil1{
   padding-bottom: 2.5rem;
   }
-  
+
   .gridfri1{
     padding-bottom: 2.5rem;
   }
-  
+
   /* frivillig mobilversion*/
-  
+
   @media (max-width: 500px) {
-  
+
     .gridfri1{grid-area: a;}
     .gridfri2{grid-area: b;}
     .gridfri3{grid-area: c;}
@@ -2257,9 +2257,9 @@ margin-left: 6.5rem;
     .gridfri5{grid-area: e;}
     .gridfri6{grid-area: f;}
     .gridfri7{grid-area: g;}
-    
-    
-    
+
+
+
     .gridfribox{
     display: grid;
     grid-template-areas:
@@ -2270,26 +2270,26 @@ margin-left: 6.5rem;
     height: auto;
     background-color:#F4F2E9;
     }
-    
+
     .gridfri1 {
       display: flex;
       justify-content: left;
       padding-left: 2rem;
       color: #2B3F43;
     }
-    
-  
-    
+
+
+
       .gridfri1 {
         display: flex;
         justify-content: left;
         padding-left: 2rem;
         color: #2B3F43;
       }
-    
-    
-    
-    
+
+
+
+
     .gridfri2{
     padding-right: 2rem;
     padding-left: 2rem;
@@ -2299,7 +2299,7 @@ margin-left: 6.5rem;
     font-size: 25px;
     line-height: 40px;
     }
-    
+
     .gridfri3{
     display: flex;
     justify-content: center;
@@ -2308,22 +2308,22 @@ margin-left: 6.5rem;
     padding-right: 5%;
     padding-bottom: 2.5%;
     }
-    
-    
+
+
     .gridfri3 img{
     object-fit: cover;
     height: auto;
     width: 100%;
     box-shadow: 3px 3px 5px #2B3F43;
     }
-    
+
     .gridfri4{
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
     padding-top: 5%;
     }
-    
+
     .gridfri5{
     margin: auto;
     margin-left: 6.5rem;
@@ -2332,60 +2332,60 @@ margin-left: 6.5rem;
     margin: auto;
     margin-left: 6.5rem;
     }
-    
+
     .gridfri7{
     margin: auto;
     margin-left: 6.5rem;
     }
-    
+
     .gridfri3 img{
     object-fit: cover;
     height: auto;
     width: 100%;
     box-shadow: 3px 3px 5px #2B3F43;
     }
-    
+
     .gridfri4{
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
     padding-top: 5%;
     }
-    
+
     .borderfri-settings{
     width: 100%;
     max-width: 1920px;
     display: flex;
     }
-    
+
     .borderfri{
     padding: 0px;
     margin: 0px;
     }
-    
+
     .gridbil1{
     padding-bottom: 2.5rem;
     }
-    
+
     .gridfri1{
       padding-bottom: 2.5rem;
     }
-  
-  
-    
+
+
+
   }
-  
-  /* billetter mobilversion */ 
-  
+
+  /* billetter mobilversion */
+
   @media (max-width: 500px) {
-  
+
     .borderbil img{
       object-fit: cover;
       height: auto;
       width: 100%;
       display: flex;
      }
-  
+
     .gridbil1{grid-area: a;}
     .gridbil2{grid-area: b;}
     .gridbil3{grid-area: c;}
@@ -2393,7 +2393,7 @@ margin-left: 6.5rem;
     .gridbil5{grid-area: e;}
     .gridbil6{grid-area: f;}
     .gridbil7{grid-area: g;}
-  
+
     .gridbilbox{
     display: grid;
     grid-template-areas:
@@ -2410,16 +2410,16 @@ margin-left: 6.5rem;
     padding-top: 10%;
     padding-bottom: 10%;
     }
-  
+
     .gridbil1 {
       display: flex;
       justify-content: center;
       padding-left: 2rem;
       color: #2B3F43;
-  
-  
+
+
     }
-  
+
     .gridbil2{
       padding-right: 2rem;
       padding-left: 2rem;
@@ -2429,7 +2429,7 @@ margin-left: 6.5rem;
       font-size: 25px;
       line-height: 40px;
     }
-  
+
     .gridbil3{
       display: flex;
       justify-content: center;
@@ -2438,21 +2438,21 @@ margin-left: 6.5rem;
       padding-right: 5%;
       padding-bottom: 2.5%;
     }
-  
+
     .gridbil3 img{
       object-fit: cover;
       height: auto;
       width: 100%;
       box-shadow: 3px 3px 5px #2B3F43;
     }
-  
+
     .gridbil4{
       display: flex;
       justify-content: center;
       padding-bottom: 5%;
       padding-top: 5%;
     }
-  
+
     .button-billetter{
       background-color: #A2D5AB;
       border: none;
@@ -2468,24 +2468,24 @@ margin-left: 6.5rem;
       height: 100px;
       font-weight: bold;
     }
-  
+
     .button-biletter:hover{
       background-color: #86B58E;
       color: #E9F4F4;
       transition: 0.3s;
     }
-  
+
     .gridbil6{
       margin: auto;
       margin-left: 6.5rem;
     }
-  
+
     .gridbil7{
       margin: auto;
       margin-left: 6.5rem;
     }
   }
-  
+
   #timertekst2{
     padding-right: 2rem;
     padding-left: 2rem;
@@ -2495,9 +2495,8 @@ margin-left: 6.5rem;
     font-size: 25px;
     line-height: 40px;
   }
-  
+
   #timer2{
     float: top;
     font-size: 25px;
   }
-  
