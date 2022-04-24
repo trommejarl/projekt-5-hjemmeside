@@ -80,6 +80,7 @@ button{
   border-radius: 5px;
   width: 15rem;
   font-weight: bold;
+  height: 4rem;
 }
 
 button:hover{
@@ -912,6 +913,7 @@ background-color: #F4F2E9;
 .title a h2{
   font-size: 60px;
   color: #2B3F43;
+  margin-bottom: 2rem;
 }
 .title a p{
   font-size: 25px;
@@ -1052,6 +1054,7 @@ background-color: #F4F2E9;
         transform: rotate(45deg) translate(20px,20px);
     }
 }
+
 
 
 /*Grid mobile version*/
@@ -1210,6 +1213,7 @@ height: 900px;
   width: 100%;
   display: flex;
   justify-content: center;
+  vertical-align: bottom;
 }
 
 .box-indhold-2-1 img{
@@ -1260,6 +1264,7 @@ height: 900px;
 .gf6{ grid-area: g; }
 .box-1{ grid-area: h; }
 .gf8{ grid-area: i; }
+.grid-forside form{grid-area: m;}
 .grid-footer{ grid-area: k; }
 
 
@@ -1274,6 +1279,7 @@ height: 900px;
   'g'
   'h'
   'i'
+  'm'
   'k';
   color: #2B3F43;
 }
